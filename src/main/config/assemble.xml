@@ -1,0 +1,18 @@
+<assembly>
+	<id>binaries</id>
+	<formats>
+		<format>dir</format>
+		<format>zip</format>
+		<format>tar.gz</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<dependencySets>
+		<dependencySet>
+			<includes>
+				<include>org.n52.wps-extension:python-process-repository</include>
+				<include>org.n52.wps:shakemap-xmlbeans</include>
+			</includes>
+			<outputDirectory>deploy-to-wps</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+</assembly>
